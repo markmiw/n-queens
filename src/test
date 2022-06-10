@@ -1,0 +1,8 @@
+function printArgs(...theArgs) {
+  theArgs.forEach(function(arg) {
+    console.log(arg)
+  })
+}
+
+printArgs('Seven', 'stars', 'and', 'seven', 'stones');
+printArgs('And', 'one', 'white', 'tree');
